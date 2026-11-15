@@ -1,0 +1,25 @@
+{
+    "name": "devspinotek/notification-control",
+    "description": "Reusable multi-channel Notification Control System (dispatcher, catalog, channel policy matrix, multi-channel previewer, and activity log) for Laravel applications.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devspinotek\\NotificationControl\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devspinotek\\NotificationControl\\NotificationControlServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
+
